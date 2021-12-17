@@ -1,0 +1,22 @@
+1. first create a new repository on github
+2. Create  a new folder in our file explorer
+3. go to inside newly created folder and right click and selet gitbash 
+4. wrtie the command inside gitbash: $ git clone "https://github.com/Sahab-Chauhan/Basic-Application.git" -path of our github repository
+5. after clone one folder will created in our file explorer same name of our repository for eg: Basic-Application
+6. then write command: $ git init - this command are use for initialation
+7. Coppy allile of your project skip node_modules file and paste it into newly create github repository folder on ur file explorer
+8. check the status using gitbash Command: $ git status
+9. do not put any file in main branch of github
+9. Change the main brach to the newly created branch for eg: basic 
+comand: $ git checkout branch_name/comment for eg: $ git checkout basic/17-12-2021
+10. check staus using command : $ git status it will show no file addedd
+11. then add the file using command: $ git add .
+check the git status: it will change the colur of all file from red to green
+12. then do the commit commmand: $ git commit -m "Created a basic angular application"
+it will commited all your file ready to add in your repository
+13. for pushing the file into our repository 
+command: $ git push -u origin basic/17-12-2021
+it will push all your file into basic repository
+
+
+
